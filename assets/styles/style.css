@@ -170,7 +170,7 @@ text-align: left;
 margin-bottom: 22px;
 }
 .teambox li.photo img {
-wirth: 100%;
+width: 100%;
 }
 .teambox li.name {
 font-size: 22px;
@@ -232,7 +232,7 @@ width: 12px;
 border-radius: 50%;
 background-color: rgba(255,255,255,0.3);
 margin: 0 2px;
-transition: background ease-in-out 0.5s;
+transition: background-color ease-in-out 0.5s;
 }
 .controls label:hover {
 background-color: rgba(255,255,255,0.6);
@@ -260,14 +260,12 @@ justify-content: center;
 flex-wrap: no-wrap;
 }
 .boxphoto {
-overflow: hidden
+overflow: hidden;
 display: block;
 line-height: 0;
 }
 .boxphoto img {
 width: 100%;
-}
-.boxreview {
 }
 .boxreview-in {
 max-width: 585px;
@@ -325,11 +323,14 @@ font-weight: 600;
 text-transform: uppercase;
 padding-bottom: 8px;
 }
-.infobox p {
+.infobox p, .infobox address {
 font-size: 14px;
 font-weight: 200;
 line-height: 1.5;
 color: rgba(153,153,153,0.9);
+}
+.infobox address {
+font-style: normal;
 }
 .socialnets {
 display: flex;
